@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    margin-top: 50px;
+}
+header{
+    margin:auto;
+}
+.h11{
+    font-weight: 200;
+    margin-left: 40px;
+}
+.h12{
+    font-weight: 600;
+    margin-top: -23px;
+    margin-left: 40px;
+}
+h1+p{
+    font-size: 13px;
+    width: 470px;
+    text-align: center;
+    margin-left: -5px;
+    margin-top: -10px;
+}
+p{
+    color: hsl(229, 6%, 66%);
+    font-size: 11px;
+}
+
+.left,.middle1,.middle2,.right{
+    border-radius:7px;
+    box-shadow:0px 4px 20px  4px rgba(0, 0, 0,0.1);
+    width: 300px;
+    height: 210px;
+}
+.left{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    margin-right: 30px;
+    margin-top: 145px;
+}
+.middle1{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.middle2{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    margin-top: 30px;
+}
+.right{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-left: 30px;
+    margin-top: 145px;
+}
+h3+p{
+    width: 250px;
+}
+img{
+    margin-left: 215px;
+    margin-top:25px;
+    width: 55px;
+    height: 55px;
+}
+.supervisor,.calcul{
+    margin-top:20px;
+    margin-left: 30px;
+}
+.team,.karma{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+h3+p{
+    margin-top: -10px;
+}
+@media screen and (max-width:376px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: -80px;
+    }
+    header{
+        margin-left: 0;
+    }
+    .left,.middle1,.middle2,.right{
+        margin-left: 20px;
+    }
+    .middle1,.middle2,.right{
+        margin-top: 25px;
+    }
+    h1+p{
+        width:300px;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+    .h11,.h12{
+        width: 400px;
+        margin-left: 25px;
+        font-size: 24px;
+    }
+    .h12{
+        margin-top: -15px;
+    }
+
+
+}
